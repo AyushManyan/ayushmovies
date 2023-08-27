@@ -1,0 +1,51 @@
+// You are using GCC
+#include<iostream>
+#include<string.h>
+using namespace std;
+class occurrence{
+    public: 
+    int counter1(string st , char c){ 
+        int counter = 0;
+        for(int i = 0;i<st.length();i++){
+            if(st[i]==ch){
+                couter++;
+            }
+        } 
+        return counter;
+    }
+}; 
+
+bool ischar(char c){
+    const string whitelist ="qwertyuiopasdfghjklzxcvbnm1234567890!@#$%^&*";
+    return whitelist.find(c) != string::npos;
+}
+
+int main(){
+    string s;
+    cin>>s;
+    char d; 
+    cin>>d;
+    occurrence c1;
+    cout<<c1.counter(s,d); 
+    return 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.geeksforgeeks.org/inversion-count-in-array-using-merge-sort/
+
+
+
+https://www.geeksforgeeks.org/inversion-count-in-array-using-merge-sort/#practice
